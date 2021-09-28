@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard1.4</TargetFramework>
     <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
   </PropertyGroup>
 
@@ -11,9 +11,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Autofac" Version="6.2.0" />
-    <PackageReference Include="Autofac.Extras.CommonServiceLocator" Version="6.0.1" />
-    <PackageReference Include="Xamarin.Forms" Version="4.8.0.1821" />
+    <PackageReference Include="Autofac" Version="4.9.4" />
+    <PackageReference Include="Xamarin.Forms" Version="2.5.1.527436" />
     <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Autofac.Extras.CommonServiceLocator\Autofac.Extras.CommonServiceLocator\Autofac.Extras.CommonServiceLocator.csproj" />
   </ItemGroup>
 </Project>
