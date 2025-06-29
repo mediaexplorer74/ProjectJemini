@@ -1,4 +1,4 @@
-# CrossPlatformApp
+# ProjectJemini
 
 ## About
 
@@ -9,8 +9,11 @@ This sample works on iOS, Andriod, and UWP (Windows Desktop and Windows 10 Mobil
 
 ## Minimum tech. details
 
-MVVM pattern used
+- MVVM pattern
 
-Autofac
+- Autofac
 
-ServiceLocator (Decompiled and rebuilded for .NET Standard 1.4)
+- ServiceLocator (Decompiled and rebuilded for .NET Standard 1.4)
+
+## .
+[M][E] 2018-2025
